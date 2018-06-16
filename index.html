@@ -24,17 +24,17 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
 	<script src="js/jquery-3.1.1.min.js"></script>
-<script>
-	$(function() {
-		function heightDetect(){
-			$(".main-head").css("height", $(window).height());
-		};
-		heightDetect();
-		$(window).resize(function(){
+	<script>
+		$(function() {
+			function heightDetect(){
+				$(".main-head").css("height", $(window).height());
+			};
 			heightDetect();
+			$(window).resize(function(){
+				heightDetect();
+			});
 		});
-	});
-</script>
+	</script>
 
 </head>
 <body class="ishome">
