@@ -26,4 +26,6 @@ $(function() {
 		$(this).addClass("active");
 	});
 
+	$("#footer-date").html(new Date().getFullYear());
+
 }); // end ready
